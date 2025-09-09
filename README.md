@@ -1,4 +1,6 @@
-## Welcome to the project! This is the main README for the docs folder.
+## Welcome to the project! 
+
+## This is the main README for the docs folder.
 
 
 ### Generate the GITHUB_TOKEN and export it below the line, run it in the terminal
