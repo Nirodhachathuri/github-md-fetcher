@@ -4,7 +4,7 @@
 
 #### Prerequisites
 
-<comment-tag id="1">* Python 3.6 or higher.</comment-tag id="1" text="Reword this bullet point to be more instructional and direct. It's a requirement, so phrasing it as such is more effective. Suggestion: 'You must have Python 3.6 or higher installed.'" type="suggestion">
+<comment-tag id="1"> Python 3.6 or higher.</comment-tag id="1" text="Reword this bullet point to be more instructional and direct. It's a requirement, so phrasing it as such is more effective. Suggestion: 'You must have Python 3.6 or higher installed.'" type="suggestion">
 
 <comment-tag id="2">* A GitHub Personal Access Token with repo scope. For more information, see GitHub's documentation on creating a PAT.</comment-tag id="2" text="The wording can be made more concise while providing more context. It's helpful to explain why the token is needed in the prerequisites list. Suggestion: 'A GitHub Personal Access Token (PAT) with repo scope is required for authentication. For instructions on how to create one, refer to GitHub's documentation on creating a PAT.'" type="suggestion">
 
