@@ -2,18 +2,30 @@
 
 ## This is the main README for the docs folder.
 
+#### Installation
 
-### Generate the GITHUB_TOKEN and export it below the line, run it in the terminal
+1. Clone this repository or download the files.
+
+2. Install the required Python libraries using pip:
+
+ pip install -r requirements.txt
+
+
+### To set a GITHUB_TOKEN for the current Terminal session,
 
 export GITHUB_TOKEN=ghp_uEP8hN0GRRsFowdJuine5cLaNJs0TXsz1sZAUGsample
 
 ### And after running the below command
 
-python gh_md_fetch.py \                                     
-  --repo https://github.com/owner/repo \
-  --branch main \
-  --repo-dir docs \
-  --out-dir ./local_docs
+python gh_md_fetch.py --repo-url <REPOSITORY_URL> --branch <BRANCH_NAME> --remote-path <REPOSITORY_DIRECTORY> --local-path <LOCAL_DIRECTORY>
+
+--repo-url - The full URL of the private GitHub repository (e.g., https://github.com/user/my-private-repo).
+
+--branch - The name of the branch to download files from (e.g., main or develop).
+
+--remote-path - The path to the directory within the repository to download files from (e.g., docs/manuals).
+
+--local-path - The local directory where the downloaded files will be saved. The script will create this directory if it doesn't exist.
 
 ### Example: I will run my repo, then check the .md files
 
