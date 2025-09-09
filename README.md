@@ -1,10 +1,11 @@
-# github-md-fetcher
+## Welcome to the project! This is the main README for the docs folder.
+
 
 ### Generate the GITHUB_TOKEN and export it below the line, run it in the terminal
 
 export GITHUB_TOKEN=ghp_uEP8hN0GRRsFowdJuine5cLaNJs0TXsz1sZAUGsample
 
-## And after running the below command
+### And after running the below command
 
 python gh_md_fetch.py \                                     
   --repo https://github.com/owner/repo \
